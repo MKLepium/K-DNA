@@ -54,6 +54,21 @@ make
 ### 4. Running the program
 
 ```bash
-./K-DNA
+./K-DNA <num_of_states> <min_k> <max_k>
 ```
+
+- num_of_states: Number of states in the automaton (integer ≥ 1)
+- min_k: Minimum length of k-mers to generate (integer ≥ 1)
+- max_k: Maximum length of k-mers to generate (integer ≥ min_k)
+
+Example:
+```bash
+./K-DNA 5 5 10
+```
+
+This runs the program with an automaton of 5 states and generates all k-mers of length 5 to 10.
+
+If invalid arguments are provided, the program prints a usage message explaining the expected input.
+
+
 
