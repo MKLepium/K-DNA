@@ -1,0 +1,3 @@
+[submodule "external/mata"]
+	path = external/mata
+	url = https://github.com/VeriFIT/mata.git

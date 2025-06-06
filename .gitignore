@@ -1,0 +1,52 @@
+# JetBrains CLion IDE
+.idea/
+*.iml
+
+# Build directory (CMake default)
+cmake-build-*/
+
+# CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+.cmake/
+
+# Ninja build system
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Test results
+Testing/
+CTestTestfile.cmake
+DartConfiguration.tcl
+
+# User-specific files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Mac OS junk
+.DS_Store
+
+# Windows junk
+Thumbs.db
+Desktop.ini
+
+# Compilation artifacts
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# CLion cache files
+.clangd/
+.clion*
