@@ -63,7 +63,7 @@ make
 
 Example:
 ```bash
-./K-DNA 5 5 10
+./K-DNA 5 5 6
 ```
 
 This runs the program with an automaton of 5 states and generates all k-mers of length 5 to 10.
